@@ -17,7 +17,7 @@ export default class Form{
         }
 
         checkMailInputs(){
-            mailInputs = document.querySelectorAll('[type="email"]');
+           const mailInputs = document.querySelectorAll('[type="email"]');
         
             mailInputs.forEach(input=>{
                 input.addEventListener('keypress', function(e){
